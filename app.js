@@ -1,4 +1,4 @@
-//para quem for revisar: atualizações em breve
+//a última alteração feita foi a mudança no limite de valores, de 10 para 20
 
 let listaDeNumerosSorteados = [];
 let numeroLimite = 20;
@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 20');
 }
 
 exibirMensagemInicial();
